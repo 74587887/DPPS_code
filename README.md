@@ -11,7 +11,7 @@ Our implementation is based on the [DPS](https://github.com/DPS2022/diffusion-po
 *ACM Multimedia 2024 Oral*
 
 
-<img src="https://dpps.pages.dev/static/images/cover1.jpg" alt="concept" width="80%">
+<img src="https://dpps.pages.dev/static/images/cover1.jpg" alt="concept" width="100%">
 
 
 
@@ -24,7 +24,7 @@ In this paper, we present a refined paradigm for diffusion-based image restorati
 Additionally, we start the restoration process with an initialization combined with the measurement signal, providing supplementary information to better align the generative process.
 Extensive experimental results and analyses validate that our proposed method significantly enhances image restoration performance while consuming negligible additional computational resources.
 
-<img src="https://dpps.pages.dev/static/images/proposed.jpg" alt="concept" width="90%">
+<img src="https://dpps.pages.dev/static/images/proposed.jpg" alt="concept" width="100%">
 
 
 
