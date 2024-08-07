@@ -1,0 +1,18 @@
+conditioning:
+  method: dpps
+  params:
+    scale: 0.4
+
+data:
+  name: ffhq
+  root: ./data/1000samples
+
+measurement:
+  operator:
+    name: gaussian_blur
+    kernel_size: 61
+    intensity: 3.0
+  
+  noise:
+    name: gaussian
+    sigma: 0.01
