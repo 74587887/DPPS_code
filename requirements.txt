@@ -1,0 +1,20 @@
+matplotlib
+numpy
+Pillow
+pyparsing
+certifi
+PyYAML
+requests
+tqdm
+urllib3
+certifi
+opencv-python
+opencv-python-headles
+hdf5storage
+blobfile
+scipy
+six
+--extra-index-url https://download.pytorch.org/whl/cu117
+torch==1.13.0+cu117
+torchvision==0.14.0+cu117
+torchaudio==0.13.0
