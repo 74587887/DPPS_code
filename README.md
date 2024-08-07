@@ -28,7 +28,7 @@ Extensive experimental results and analyses validate that our proposed method si
 
 ## Getting started 
 
-### 1) Clone the repository
+### 1. Clone the repository
 
 ```
 git clone  https://github.com/74587887/DPPS_code DPPS
@@ -36,7 +36,7 @@ cd DPPS
 ```
 
 
-### 2) Download pretrained checkpoint
+### 2. Download pretrained checkpoint
 
 Download the [checkpoints](https://drive.google.com/drive/folders/1jElnRoFv7b31fG0v6pTSQkelbSX3xGZh) (from [DPS](https://github.com/DPS2022/diffusion-posterior-sampling)) and put them into `DPPS/models/`.
 
@@ -45,7 +45,7 @@ https://drive.google.com/drive/folders/1jElnRoFv7b31fG0v6pTSQkelbSX3xGZh
 ```
 
 
-### 3) Set environment
+### 3. Set environment
 
 Install required dependencies
 
@@ -59,7 +59,7 @@ And git the external codes for motion-blurring.
 git clone https://github.com/LeviBorodenko/motionblur motionblur
 ```
 
-### 4) Inference
+### 4. Inference
 
 ```
 python3 sample_condition.py \
@@ -67,7 +67,7 @@ python3 sample_condition.py \
 --diffusion_config=configs/diffusion_config.yaml \
 --task_config={task_config};
 ```
-### 5) Possible task and model configurations
+#### 4.1 Possible task and model configurations
 
 ```
 # model configs
@@ -80,9 +80,9 @@ python3 sample_condition.py \
 - configs/motion_deblur_config.yaml
 - configs/inpainting_config.yaml
 ```
+#### Possible task and model configurations
 
-
-## Citation
+## References and Acknowledgements
 If you find our code useful, please kindly consider citing our paper
 
 ```
@@ -93,3 +93,6 @@ If you find our code useful, please kindly consider citing our paper
   year={2024}
 }
 ```
+This implementation is based on:
+
+- [https://github.com/DPS2022/diffusion-posterior-sampling](https://github.com/DPS2022/diffusion-posterior-sampling) (DPS)
