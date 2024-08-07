@@ -31,8 +31,7 @@ Extensive experimental results and analyses validate that our proposed method si
 ### 1) Clone the repository
 
 ```
-git clone https://github.com/DPS2022/diffusion-posterior-sampling
-
+https://github.com/74587887/DPPS_code
 ```
 
 
@@ -46,7 +45,7 @@ https://drive.google.com/drive/folders/1jElnRoFv7b31fG0v6pTSQkelbSX3xGZh?usp=sha
 
 ### 3) Set environment
 
-Install dependencies
+Install required dependencies
 
 ```
 pip install -r requirements.txt
