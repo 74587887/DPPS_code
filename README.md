@@ -41,7 +41,7 @@ cd DPPS
 Download the [checkpoints](https://drive.google.com/drive/folders/1jElnRoFv7b31fG0v6pTSQkelbSX3xGZh) (from [DPS](https://github.com/DPS2022/diffusion-posterior-sampling)) and put them into `DPPS/models/`.
 
 ```
-https://drive.google.com/drive/folders/1jElnRoFv7b31fG0v6pTSQkelbSX3xGZh?usp=sharing
+https://drive.google.com/drive/folders/1jElnRoFv7b31fG0v6pTSQkelbSX3xGZh
 ```
 
 
@@ -53,11 +53,9 @@ Install required dependencies
 pip install -r requirements.txt
 ```
 
-And git the external codes for motion-blurring and non-linear deblurring.
+And git the external codes for motion-blurring.
 
 ```
-git clone https://github.com/VinAIResearch/blur-kernel-space-exploring bkse
-
 git clone https://github.com/LeviBorodenko/motionblur motionblur
 ```
 
