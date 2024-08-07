@@ -31,13 +31,15 @@ Extensive experimental results and analyses validate that our proposed method si
 ### 1) Clone the repository
 
 ```
-https://github.com/74587887/DPPS_code
+git clone  https://github.com/74587887/DPPS_code DPPS
+cd DPPS
 ```
 
 
 ### 2) Download pretrained checkpoint
 
-Download the [checkpoints](https://drive.google.com/drive/folders/1jElnRoFv7b31fG0v6pTSQkelbSX3xGZh) (from [DPS](https://github.com/DPS2022/diffusion-posterior-sampling)) and put them into `./models/`.
+Download the [checkpoints](https://drive.google.com/drive/folders/1jElnRoFv7b31fG0v6pTSQkelbSX3xGZh) (from [DPS](https://github.com/DPS2022/diffusion-posterior-sampling)) and put them into `DPPS/models/`.
+
 ```
 https://drive.google.com/drive/folders/1jElnRoFv7b31fG0v6pTSQkelbSX3xGZh?usp=sharing
 ```
@@ -63,25 +65,27 @@ git clone https://github.com/LeviBorodenko/motionblur motionblur
 
 ```
 python3 sample_condition.py \
---model_config=configs/{model_config} \
+--model_config={model_config} \
+--diffusion_config=configs/diffusion_config.yaml \
 --task_config={task_config};
 ```
 ### 5) Possible task and model configurations
 
 ```
+# model configs
+- configs/model_config.yaml  # for FFHQ dataset
+- configs/imagenet_model_config.yaml  # for ImageNet dataset
+
 # task configs
 - configs/super_resolution_config.yaml  
 - configs/gaussian_deblur_config.yaml
 - configs/motion_deblur_config.yaml
 - configs/inpainting_config.yaml
-
-# model configs
-- configs/model_config.yaml  # for FFHQ dataset
-- configs/imagenet_model_config.yaml  # for ImageNet dataset
 ```
 
+
 ## Citation
-If you find our work interesting, please consider citing
+If you find our code useful, please kindly consider citing our paper
 
 ```
 @article{wu2024diffusion,
