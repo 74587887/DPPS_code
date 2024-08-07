@@ -7,7 +7,7 @@ Our implementation is based on the [DPS](https://github.com/DPS2022/diffusion-po
 
 
 **Diffusion Posterior Proximal Sampling for Image Restoration**<br>
-[Hongjie Wu](https://hongjie-wu.pages.dev/), Linchao He, Mingqin Zhang, Dongdong Chen, Kunming Luo, Mengting Luo, Ji-Zhe Zhou, Hu Chen and Jiancheng Lv <br>
+[Hongjie Wu*](https://hongjie-wu.pages.dev/), Linchao He*, Mingqin Zhang, Dongdong Chen, Kunming Luo, Mengting Luo, Ji-Zhe Zhou, Hu Chen and Jiancheng Lv <br>
 *ACM Multimedia 2024 Oral*
 
 
