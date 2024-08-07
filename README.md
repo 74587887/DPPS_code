@@ -80,7 +80,6 @@ python3 sample_condition.py \
 - configs/motion_deblur_config.yaml
 - configs/inpainting_config.yaml
 ```
-#### Possible task and model configurations
 
 ## References
 If you find our code useful, please kindly consider citing our paper
