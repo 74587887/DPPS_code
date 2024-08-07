@@ -82,7 +82,7 @@ python3 sample_condition.py \
 ```
 #### Possible task and model configurations
 
-## References and Acknowledgements
+## References
 If you find our code useful, please kindly consider citing our paper
 
 ```
@@ -93,6 +93,3 @@ If you find our code useful, please kindly consider citing our paper
   year={2024}
 }
 ```
-This implementation is based on:
-
-- [https://github.com/DPS2022/diffusion-posterior-sampling](https://github.com/DPS2022/diffusion-posterior-sampling) (DPS)
