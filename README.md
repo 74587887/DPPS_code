@@ -85,10 +85,11 @@ python3 sample_condition.py \
 If you find our code useful, please kindly consider citing our paper
 
 ```
-@article{wu2024diffusion,
+@inproceedings{wu2024diffusion,
   title={Diffusion Posterior Proximal Sampling for Image Restoration},
   author={Wu, Hongjie and He, Linchao and Zhang, Mingqin and Chen, Dongdong and Luo, Kunming and Luo, Mengting and Zhou, Ji-Zhe and Chen, Hu and Lv, Jiancheng},
-  journal={arXiv preprint arXiv:2402.16907},
+  booktitle={Proceedings of the 32nd ACM International Conference on Multimedia},
+  pages={214--223},
   year={2024}
 }
 ```
